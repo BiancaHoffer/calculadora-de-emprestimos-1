@@ -11,9 +11,9 @@ export function PriceForm({ value, setValue }: PriceForm) {
   }
 
   return (
-    <div data-aos="zoom-in" className="w-full max-w-[320px] flex flex-col gap-2">
+    <div data-aos="zoom-in" className="w-full max-w-[320px] flex flex-col gap-3">
       <div className='flex items-end justify-center gap-1 w-full'>
-        <span className='text-primary text-5xl font-semibold pb-4'>
+        <span className='text-primary text-5xl font-semibold pb-3'>
           R$
         </span>
         <p className='text-primary text-8xl p-0 m-0 w-full font-medium '>
