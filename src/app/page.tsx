@@ -149,7 +149,7 @@ export default function Home() {
           className='flex justify-between items-center flex-col gap-6 w-full h-full'
         >
           <div></div>
-          <div>{currentComponent}</div>
+          <div className='w-full max-w-[320px]'>{currentComponent}</div>
           <div className='w-full flex items-center justify-center flex-col gap-2'>
             {isSecondStep || isLastStep && (
               <Button

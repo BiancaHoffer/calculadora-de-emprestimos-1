@@ -11,18 +11,14 @@ export function PriceForm({ value, setValue }: PriceForm) {
   }
 
   return (
-    <div data-aos="zoom-in" className="w-full max-w-[320px]">
-      <div className='flex items-end justify-between gap-1'>
-        <span className='text-primary text-5xl font-semibold pb-5'>
+    <div data-aos="zoom-in" className="w-full max-w-[320px] flex flex-col gap-2">
+      <div className='flex items-end justify-center gap-1 w-full'>
+        <span className='text-primary text-5xl font-semibold pb-4'>
           R$
         </span>
-        <input
-          className='text-primary text-8xl p-0 m-0 w-full font-medium '
-          type="text"
-          placeholder={value}
-          value={`${value}`}
-          onChange={e => setValue(RegexNumber(e.target.value))}
-        />
+        <p className='text-primary text-8xl p-0 m-0 w-full font-medium '>
+          {value}
+        </p>
       </div>
       <input
         className='w-full bg-primary '
