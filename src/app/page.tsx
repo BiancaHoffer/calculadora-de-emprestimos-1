@@ -173,7 +173,7 @@ export default function Home() {
                 <Link
                   className="w-full"
                   target="_blank"
-                  href={`https://api.whatsapp.com/send/?phone=559282007007&text=Tenho interesse em um empréstimo de ${currencyBRL(Number(value))}. Forma de pagamento: ${method}`}
+                  href={`https://api.whatsapp.com/send/?phone=559292040506&text=Tenho interesse em um empréstimo de ${currencyBRL(Number(value))}. Forma de pagamento: ${method}`}
                 >
                   <Button
                     type="button"
